@@ -1,0 +1,1096 @@
+@media (max-width: 1720px) {
+    .leftHead {
+        padding-left: 0rem;
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 9%;
+                top: 7rem;
+            }
+            &:nth-child(2) {
+                left: 22%;
+                top: 7rem;
+            }
+            &:nth-child(3) {
+                left: 35%;
+                top: 4.5rem;
+
+            }
+            &:nth-child(4) {
+                left: 34%;
+                top: 11.5rem;
+
+            }
+            &:nth-child(5) {
+                left: 49%;
+                top: 7rem;
+
+            }
+            &:nth-child(6) {
+                left: 57%;
+                top: 4rem;
+
+            }
+            &:nth-child(7) {
+                left: 59%;
+                top: 3rem;
+
+            }
+            &:last-child {
+                left: 76%;
+                top: 1rem;
+            }
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .navItem, .navItemS {
+        & .top, .topS {
+            margin: 0 1rem;
+        }
+    }
+    .fourList {
+        &:nth-child(4) {
+            margin-right: 2rem;
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .navItem, .navItemS {
+        width: auto;
+    }
+    .comingSoon {
+        width: 9rem;
+    }
+    .navItem, .navItemS {
+        & .top, & .topS {
+            & .sign {
+                width: 10rem;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .navItem:hover .topHov img,
+    .navItem.active .topHov img {
+        max-width: 10rem ;
+    }
+}
+@media (max-width: 1440px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 2%;
+                top: 7rem;
+            }
+            &:nth-child(2) {
+                left: 18%;
+                top: 7rem;
+            }
+            &:nth-child(3) {
+                left: 33.5%;
+                top: 4.5rem;
+
+            }
+            &:nth-child(4) {
+                left: 32.5%;
+                top: 11.5rem;
+
+            }
+            &:nth-child(5) {
+                left: 50.5%;
+                top: 7rem;
+
+            }
+            &:nth-child(6) {
+                left: 60%;
+                top: 4rem;
+
+            }
+            &:nth-child(7) {
+                left: 63%;
+                top: 3rem;
+
+            }
+            &:last-child {
+                left: 83%;
+                top: 1rem;
+            }
+        }
+    }
+    .tableTwo {
+        width: 50rem;
+        padding: 6rem;
+        margin-right: 3rem;
+    }
+    .threeText {
+        margin: 2rem 0 2rem 4rem;
+    }
+    .tableThree {
+        width: 65rem;
+    }
+}
+@media (max-width: 1280px) {
+    html {
+        font-size: 14px;
+    }
+    .starLight {
+        width: 1.5rem;
+    }
+    .navItem, .navItemS {
+        & .top, & .topS {
+            & img:first-child {
+                height: 1.5rem;
+            }
+        }
+    }
+    .comingSoon {
+        width: 7rem;
+    }
+    .navItemS {
+        & .topS {
+            margin: 0;
+            padding: 0;
+            & img:first-child {
+                width: 8rem;
+                height: 3rem;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .rightHead {
+        margin-right: 2.5rem;
+        & a img{
+            width: 4rem;
+        }
+    }
+    .navItem:hover .topHov img, .navItem.active .topHov img {
+        max-width: 8rem;
+    }
+    .heross {
+        & img {
+            width: auto;
+            height: auto;
+            &:first-child {
+                left: 16%;
+                top: 3rem;
+                width: 20rem;
+            }
+            &:nth-child(2) {
+                left: 29%;
+                top: 8rem;
+                width: 20rem;
+            }
+            &:nth-child(3) {
+                left: 39.5%;
+                top: 6rem;
+                width: 15rem;
+
+            }
+            &:nth-child(4) {
+                left: 39%;
+                top: 11rem;
+                width: 28rem;
+
+            }
+            &:nth-child(5) {
+                left: 51%;
+                top: 8rem;
+                width: 18rem;
+
+            }
+            &:nth-child(6) {
+                left: 58%;
+                top: 5rem;
+                width: 14rem;
+
+            }
+            &:nth-child(7) {
+                left: 60%;
+                top: 5rem;
+                width: 20rem;
+
+            }
+            &:last-child {
+                left: 72%;
+                top: 1rem;
+                width: 18rem;
+                height: auto;
+            }
+        }
+    }
+    .naming {
+        top: 13rem;
+        & img {
+            &:last-child {
+                width: 40rem;
+                position: relative;
+                bottom: 7rem;
+                animation-delay: 2s;
+            }
+        }
+
+    }
+    .tableTwo {
+        width: 35rem;
+        height: 50rem;
+        padding: 2rem;
+        & img {
+            width: 18rem;
+        }
+        & img.gifka{
+            width: 85%;
+        }
+    }
+    .blackKnight {
+        height: 100%;
+    }
+    .threeText, .threeTextChine {
+        width: 40rem;
+        margin: 6rem 0 2rem 6rem;
+    }
+    .tableThree img {
+        width: 50rem;
+    }
+    .fourItem img {
+        width: 24rem;
+    }
+    .fourMan {
+        height: 100%;
+    }
+    .fourList {
+        margin-right: 0rem;
+    }
+    .fiveTable img {
+        width: 90%;
+    }
+    .fiveItem  {
+        &:first-child {
+            width: 40%;
+            & img:nth-child(2) {
+                width: 100%;
+                height: auto;
+            }
+            & .fiveTable {
+                width: 100%;
+                height: 20rem;
+            }
+        }
+        &:nth-child(2) {
+            width: 40%;
+            & img:nth-child(2) {
+                width: 100%;
+                height: auto;
+            }
+            & .fiveTable {
+                width: 100%;
+                height: 20rem;
+            }
+        }
+        &:last-child {
+            width: 40%;
+            & img:nth-child(2) {
+                width: 100%;
+                height: auto;
+            }
+            & .fiveTable {
+                width: 100%;
+                height: 20rem;
+            }
+        }
+    }
+    .fiveList {
+        width: auto;
+        height: 70rem;
+        margin-left: 0;
+    }
+    .fiveMan {
+        height: 100%;
+    }
+    .tableSix {
+        width: 75%;
+        & .sixText {
+            width: 100%;
+        }
+    }
+    .smoke {
+        position: absolute;
+        top: -12rem;
+        right: -25rem;
+        z-index: 90;
+    }
+}
+@media (max-width: 960px) {
+    .heroBlock {
+        height: 50rem;
+    }
+    .tableThree {
+        width: 50rem;
+    }
+    .rightHead {
+        margin-right: 0.5rem;
+    }
+    .fiveBlock {
+        height: 80rem;
+    }
+    .tableSix {
+        height: 29rem;
+    }
+        .heross {
+        & img {
+            width: auto;
+            height: auto;
+            &:first-child {
+                left: 8%;
+                top: 3rem;
+                width: 20rem;
+            }
+            &:nth-child(2) {
+                left: 25%;
+                top: 8rem;
+                width: 20rem;
+            }
+            &:nth-child(3) {
+                left: 39%;
+                top: 6rem;
+                width: 15rem;
+
+            }
+            &:nth-child(4) {
+                left: 39%;
+                top: 11rem;
+                width: 28rem;
+
+            }
+            &:nth-child(5) {
+                left: 55%;
+                top: 8rem;
+                width: 18rem;
+
+            }
+            &:nth-child(6) {
+                left: 65%;
+                top: 5rem;
+                width: 14rem;
+
+            }
+            &:nth-child(7) {
+                left: 68%;
+                top: 5rem;
+                width: 20rem;
+
+            }
+            &:last-child {
+                left: 86%;
+                top: 1rem;
+                width: 18rem;
+                height: auto;
+            }
+        }
+    }
+.fourBlock {
+    & .smoke {
+        top: -10rem;
+        width: 200%;
+        right: -20rem;
+    }
+}
+}
+@media (min-height: 1081px) {
+    .heroBlock {
+        height: 50rem;
+    }
+}
+@media (max-width: 924px) {
+    .comingSoon {
+        width: 5rem;
+    }
+    .navItem {
+        & .top {
+            & img:first-child {
+                height: 1rem;
+            }
+        }
+    }
+}
+@media (max-width: 830px) {
+    .naming {
+        & img {
+            &:first-child {
+                z-index: 2;
+                top: 5rem;
+            }
+        }
+    }
+    .naming {
+        top: 18rem;
+    }
+}
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 2%;
+                top: 3rem;
+                width: 18rem;
+            }
+            &:nth-child(2) {
+                left: 18%;
+                top: 8rem;
+                width: 18rem;
+            }
+            &:nth-child(3) {
+                left: 32%;
+                top: 6.5rem;
+                width: 13rem;
+
+            }
+            &:nth-child(4) {
+                left: 31%;
+                top: 11rem;
+                width: 26rem;
+
+            }
+            &:nth-child(5) {
+                left: 46%;
+                top: 8rem;
+                width: 16rem;
+
+            }
+            &:nth-child(6) {
+                left: 55.5%;
+                top: 6rem;
+                width: 12rem;
+
+            }
+            &:nth-child(7) {
+                left: 57%;
+                top: 6rem;
+                width: 18rem;
+
+            }
+            &:last-child {
+                left: 73%;
+                top: 4rem;
+                width: 16rem;
+                height: auto;
+            }
+        }
+    }
+    .twoBlock {
+        height: 50rem;
+    }
+    .tableTwo {
+        width: 25rem;
+        height: 40rem;
+    }
+    .smoke {
+        position: absolute;
+        top: -4rem;
+        right: -8rem;
+        height: 9rem;
+        z-index: 90;
+        width: 150%;
+    }
+    .fourBlock {
+        background-position-x: right;
+        & .smoke {
+            position: absolute;
+            top: -4rem;
+            right: -8rem;
+            height: 9rem;
+            z-index: 90;
+            width: 150%;
+        }
+    }
+    .threeText, .threeTextChine {
+        width: 34rem;
+        margin: 4rem 0 2rem 6rem;
+        mask-image: radial-gradient(circle, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+    }
+    .tableThree {
+        width: 40rem;
+    }
+    .tableThree img {
+        width: 40rem;
+    }
+    .fourItem img {
+        width: 20rem;
+    }
+    .fiveItem {
+        & .number {
+            width: 10rem;
+        }
+    }
+    .fiveBlock {
+        height: 60rem;
+    }
+    .fiveList {
+        height: 55rem;
+        width: 95%;
+    }
+    .fiveItem {
+        &:nth-child(1) {
+            width: 35%;
+            & .fiveTable {
+                width: 100%;
+                height: 15rem;
+            }
+        }
+        &:nth-child(2) {
+            width: 35%;
+            & .fiveTable {
+                width: 100%;
+                height: 15rem;
+            }
+        }
+        &:nth-child(3) {
+            width: 35%;
+            & .fiveTable {
+                width: 100%;
+                height: 15rem;
+            }
+        }
+    }
+    .sixBlock {
+        height: 60rem;
+    }
+    .tableSix {
+        height: 25rem;
+    }
+    .dragons {
+        height: 7rem;
+        bottom: 3rem;
+    }
+    .sixBlockButton {
+        height: 7rem;
+    }
+    .logos {
+        width: 20rem;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .navItem, .navItemS {
+        width: 20%;
+    }
+    .navItemS {
+        justify-content: center;
+    }
+    .starLight {
+        width: 1rem;
+    }
+    .comingSoon {
+        width: 3rem;
+    }
+    .navItem, .navItemS {
+        & .top, & .topS {
+            & img:first-child {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+    .navItem {
+        & .top {
+            & img:first-child {
+                height: 1rem;
+            }
+        }
+    }
+    .navItemS {
+        & .topS {
+            & img:first-child {
+                width: 3.3rem;
+                height: 1rem;
+            }
+        }
+    }
+    .navItem, .navItemS {
+        & .top, .topS {
+            margin: 0 0.5rem;
+        }
+    }
+    .navItem, .navItemS {
+        & .top, .topS {
+            padding-top: 0;
+        }
+    }
+    .rightHead {
+        & a img {
+            width: 2rem;
+        }
+    }
+    .starLight {
+        height: 2rem;
+        width: 0.5rem;
+    }
+    .navItem {
+        & .top {
+            & img:first-child {
+                margin-top: 0.6rem;
+            }
+        }
+    }
+    .comingSoon {
+        margin-bottom: 0.5rem;
+    }
+    .navItemS {
+        & .topS {
+            & img:first-child {
+                margin: 0;
+                width: 5rem;
+                height: auto;
+            }
+        }
+    }
+    .rightHead {
+        justify-content: space-between;
+        padding: 1rem 1rem 0;
+        margin: 0;
+        & a img {
+            width: 3rem;
+        }
+    }
+    .navItem:hover .topHov img, .navItem.active .topHov img {
+        max-width: 100%;
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 2%;
+                top: 0;
+                width: 12rem;
+            }
+            &:nth-child(2) {
+                left: 20%;
+                top: 3rem;
+                width: 12rem;
+            }
+            &:nth-child(3) {
+                left: 35%;
+                top: 2.5rem;
+                width: 7rem;
+
+            }
+            &:nth-child(4) {
+                left: 33%;
+                top: 4.5rem;
+                width: 16rem;
+
+            }
+            &:nth-child(5) {
+                left: 46%;
+                top: 3rem;
+                width: 10rem;
+
+            }
+            &:nth-child(6) {
+                left: 55%;
+                top: 1rem;
+                width: 8rem;
+
+            }
+            &:nth-child(7) {
+                left: 57%;
+                top: 1rem;
+                width: 12rem;
+
+            }
+            &:last-child {
+                left: 75%;
+                top: 0;
+                width: 10rem;
+                height: auto;
+            }
+        }
+    }
+    .naming {
+        top: 5rem;
+    }
+        .naming {
+        & img {
+            &:last-child {
+                width: 22rem;
+                bottom: 4rem;
+            }
+        }
+    }
+    .naming {
+        & img {
+            &:first-child {
+                top: 3rem;
+                width: 14rem;
+            }
+        }
+    }
+    .heroBlock {
+        height: 25rem;
+    }
+    .tableTwo {
+        width: auto;
+        height: 30rem;
+        margin-right: 0;
+    }
+    .tableTwoGroup {
+        height: 100%;
+    }
+    .tableTwo {
+        & img {
+            width: 14rem;
+        }
+    }
+    .twoBlock {
+        height: 40rem;
+    }
+    .tableTwo {
+        & img.gifka {
+            width: 18rem;
+        }
+    }
+    .threeText, .threeTextChine {
+        width: 30rem;
+        margin: 2rem 0 2rem 2rem;
+    }
+    .tableThree img {
+        width: 30rem;
+    }
+    .tableThree {
+        margin-left: 2rem;
+        width: 30rem;
+        padding: 2rem 0;
+    }
+    .threeBlock {
+        padding: 2rem 0 2rem;
+    }
+    .fourItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fourItem img {
+        width: 65%;
+    }
+    .fourTextBotton {
+        padding: 0;
+    }
+    .fourList {
+        flex-direction: column-reverse;
+        align-items: center;
+        &:nth-child(4) {
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 4rem;
+        }
+    }
+    .fiveList {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .fiveItem {
+        & .number {
+            width: 6rem;
+        }
+    }
+
+    .fourBlock {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .fiveItem {
+        &:nth-child(1) {
+            width: 65%;
+            & .fiveTable {
+                height:9rem;
+            }
+        }
+        &:nth-child(2) {
+            width: 65%;
+            & .fiveTable {
+                height: 9em;
+            }
+        }
+        &:nth-child(3) {
+            width: 65%;
+            & .fiveTable {
+                height: 9em;
+            }
+        }
+    }
+    .fiveList {
+        height: 55rem;
+        padding-top: 2rem;
+        margin-left: 2rem;
+    }
+    .fiveItem {
+        margin: 0;
+        &:first-child {
+            & img:nth-child(2) {
+                width: 80%;
+                margin: 1rem 0 2rem;
+            }
+        }
+        &:nth-child(2) {
+            & img:nth-child(2) {
+                width: 80%;
+                height: auto;
+                margin: 1rem 0 2rem;
+            }
+        }
+        &:nth-child(3) {
+            & img:nth-child(2) {
+                width: 80%;
+                height: auto;
+                margin: 1rem 0 2rem;
+            }
+        }
+    }
+    .fiveBlock {
+        height: 60rem;
+    }
+    .sixButton {
+        width: 15rem;
+    }
+    .dragons {
+        height: 5rem;
+    }
+    .tableSix {
+        height: 15rem;
+        padding: 0 2rem 2rem;
+    }
+    .logos {
+        width: 10rem;
+    }
+    .logo:hover .logosHov {
+        width: 10rem;
+    }
+    .sixBlock {
+        height: 45rem;
+    }
+    .naming {
+        top: 8rem;
+    }
+}
+@media (max-width: 375px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 0;
+                top: 1rem;
+                width: 10rem;
+            }
+            &:nth-child(2) {
+                left: 20%;
+                top: 3rem;
+                width: 10rem;
+            }
+            &:nth-child(3) {
+                left: 35.1%;
+                top: 2.2rem;
+                width: 7rem;
+
+            }
+            &:nth-child(4) {
+                left: 35.5%;
+                top: 4.8rem;
+                width: 12rem;
+
+            }
+            &:nth-child(5) {
+                left: 51%;
+                top: 3rem;
+                width: 8rem;
+
+            }
+            &:nth-child(6) {
+                left: 60%;
+                top: 1.2rem;
+                width: 7rem;
+
+            }
+            &:nth-child(7) {
+                left: 63%;
+                top: 0.5rem;
+                width: 11rem;
+
+            }
+            &:last-child {
+                left: 80%;
+                top: -0.5rem;
+                width: 10rem;
+                height: auto;
+            }
+        }
+    }
+    .navItem {
+        & .top {
+            & img:first-child {
+                height: 0.6rem;
+            }
+        }
+    }
+    .naming {
+        top: 9rem;
+    }
+    .navItem.active .topHov {
+        margin: 0 0.5rem;
+    }
+    .navItem:hover .topHov img, .navItem.active .topHov img {
+        max-width: 3rem;
+    }
+    .threeText, .threeTextChine {
+        width: 28rem;
+        margin: 1rem 0 2rem 1rem;
+    }
+    .tableThree img {
+        width: 26rem;
+    }
+    .tableThree {
+        margin-left: 2rem;
+        width: 26rem;
+        padding: 2rem 0;
+    }
+}
+@media (max-width: 360px) {
+    html {
+        font-size: 10px;
+    }
+        .heross {
+        & img {
+            &:first-child {
+                left: 0;
+                top: 1rem;
+                width: 10rem;
+            }
+            &:nth-child(2) {
+                left: 17%;
+                top: 3rem;
+                width: 10rem;
+            }
+            &:nth-child(3) {
+                left: 30.5%;
+                top: 2.2rem;
+                width: 7rem;
+
+            }
+            &:nth-child(4) {
+                left: 31%;
+                top: 4.8rem;
+                width: 12rem;
+
+            }
+            &:nth-child(5) {
+                left: 45%;
+                top: 3rem;
+                width: 8rem;
+
+            }
+            &:nth-child(6) {
+                left: 53%;
+                top: 1.2rem;
+                width: 7rem;
+
+            }
+            &:nth-child(7) {
+                left: 56%;
+                top: 0.5rem;
+                width: 11rem;
+
+            }
+            &:last-child {
+                left: 73%;
+                top: -0.5rem;
+                width: 9rem;
+                height: auto;
+            }
+        }
+    }
+    .threeText, .threeTextChine {
+        width: 20rem;
+        margin: 2rem 0 2rem 2rem;
+    }
+    .tableThree img {
+        width: 20rem;
+    }
+    .tableThree {
+        width: 20rem;
+    }
+    .miniHeros {
+        margin: 1.5rem 0 2rem;
+    }
+    .fourTextBotton {
+        padding-left: 3rem;
+    }
+    .fiveList {
+        width: 80%;
+    }
+    .sixBlockButton {
+        height: 4rem;
+    }
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}
+@media (max-width: 100px) {
+    
+}

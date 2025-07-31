@@ -1,0 +1,1664 @@
+@media (min-height: 1400px) {
+    div.heroBlock {
+        height: 90rem;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2300px) {
+    .comingSoon {
+        height: 1.5rem;
+    }
+    .navItem, .navItemS {
+        & .top {
+            & img:first-child {
+                height: 2.5rem;
+            }
+        }
+    }
+    a {
+        & img {
+            width: 6rem;
+        }
+    }
+    .naming {
+        & img {
+            &:first-child {
+                top: 10rem;
+                z-index: 2
+                ;
+            }
+        }
+    }
+}
+@media (min-width: 1921px) and (max-width: 2200px) {
+    .threeText, .threeTextChine {
+        width: 80rem;
+    }
+    .tableThree {
+        width: 100rem;
+        height: 43rem;
+    }
+    .fourItem {
+        width: 40rem;
+    }
+    .fiveItem {
+        width: 40rem;
+        & .fiveTable {
+            width: 100%;
+            height: 28rem;
+        }
+    }
+
+}
+@media (min-width: 1921px) and (max-width: 2100px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 6%;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 20%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 33.5%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 32.5%;
+                top: 14rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 51%;
+                top: 8rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 60%;
+                top: 3rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 62%;
+                top: 2rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 80%;
+                top: 0;
+                animation-delay: 0.4s;
+                height: 73rem;
+            }
+        }
+    }
+    .tableTwo {
+        width: 73rem;
+        height: 65rem;
+    }
+    img.gifka {
+        width: 40rem;
+    }
+}
+@media (min-width: 1921px) {
+    header {
+        height: 11rem;
+    }
+    .starLight {
+        height: 90%;
+    }
+    .navItem, .navItemS {
+        & .top, .topS {
+            padding-top: 0;
+        }
+    }
+    .comingSoon {
+        height: 2rem;
+    }
+    .navItem, .navItemS {
+        & .top {
+            & img:first-child {
+                height: 3rem;
+            }
+        }
+        & .topS {
+            & img:first-child {
+                height: 5rem;
+            }
+        } 
+    }
+    a {
+        & img {
+            width: 8rem;
+        }
+    }
+    .heross {
+        & img {
+            height: 68rem;
+        }
+    }
+    .heross {
+        & img {
+            &:last-child {
+                height: 68rem;
+            }
+        }
+    }
+    .naming {
+        top: 24rem;
+    }
+    .smoke {
+        right: -45rem;
+        object-fit: fill;
+        width: 200%;
+        height: 20rem;
+    }
+    .twoBlock {
+        padding: 2rem 0;
+    }
+    .tableTwo {
+        width: 88rem;
+        height: 79rem;
+    }
+    .tableTwoGroup {
+        height: 50%;
+    }
+    .twoBlock {
+        height: 98rem;
+    }
+    .tableTwo {
+        & img {
+            width: 32rem;
+        }
+    }
+    img.gifka {
+        width: 50rem;
+    }
+    .blackKnight {
+        height: 100%;
+    }
+    .tableThree {
+        width: 115rem;
+        padding: 6rem 0;
+        height: 52rem;
+    }
+    .threeText, .threeTextChine {
+        width: 90rem;
+    }
+    .fourBlock {
+        height: 90rem;
+        & .smoke {
+            top: -10rem;
+            width: 200%;
+            right: -60rem;
+        }
+    }
+    .fourMan {
+        height: 100%;
+    }
+    .fourItem {
+        width: 40rem;
+        & img {
+            width: 100%;
+        }
+    }
+    .fourItem {
+        width: 43rem;
+    }
+    .fourList {
+        margin-right: 5rem;
+    }
+    .fiveBlock {
+        height: 122rem;
+    }
+    .fiveMan {
+        height: 100%;
+    }
+    .fiveList {
+        width: 75%;
+        height: 115rem;
+    }
+    .fiveItem {
+        width: 50rem;
+        & .fiveTable {
+            width: 100%;
+            height: 37rem;
+            & img {
+                width: 90%;
+            }
+        }
+    }
+    .fiveItem {
+        & img:nth-child(2) {
+            height: 6rem;
+        }
+    }
+    .number {
+        width: 15rem;
+    }
+    .sixBlock {
+        height: 103rem;
+        & .smoke {
+            right: -100rem;
+        }
+        
+    }
+    .tableSix {
+        height: 44rem;
+    }
+    .logos {
+        width: 35rem;
+    }
+    .logo:hover .logosHov {
+       width: 35rem;
+    }
+}
+
+@media (max-width: 1920px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 10%;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 22%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 33.5%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 33%;
+                top: 12rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 46%;
+                top: 8.75rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 53.5%;
+                top: 5.75rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 55%;
+                top: 5rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 70%;
+                top: 3rem;
+                animation-delay: 0.4s;
+                height: 58rem;
+            }
+        }
+    }
+    .tableTwo {
+        width: 60rem;
+        height: 55rem;
+    }
+    .tableTwoGroup {
+        height: 47%;
+    }
+    .tableTwo {
+        & img {
+            width: 20rem;
+        }
+    }
+    .tableThree {
+        width: 94rem;
+        height: 42rem;
+    }
+    img.gifka {
+        width: 35rem;
+    }
+    .sign {
+        height: 3.5rem;
+    }
+    .navItemS {
+        & .topS {
+            & img:first-child {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+@media (max-width:1870px) {
+    .threeText, .threeTextChine {
+        width: 75rem;
+    }
+    .tableThree {
+        width: 88rem;
+        height: 38rem;
+        & img {
+            width: 86rem;
+        }
+    }
+    .fourItem {
+        width: 35rem;
+    }
+    
+}
+@media (max-width:1820px) {
+    a {
+        & img {
+            width: 5rem;
+        }
+    }
+}
+@media (max-width:1770px) {
+    .leftHead {
+        padding-left: 5rem;
+    }
+    .navItem:hover .topHov, .navItem.active .topHov {
+        width: 10rem;
+        & img {
+            width: 100%;
+        }
+    }
+    .navItem.active .topHov {
+        width: 10rem;
+        & img {
+            width: 100%;
+        }
+    }
+}
+@media (max-width:1720px) {
+    .comingSoon {
+        height: 1rem;
+    }
+    .navItem, .navItemS {
+        & .top {
+            & img:first-child {
+                height: 2rem;
+            }
+        }
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 10%;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 23%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 36%;
+                top: 4.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 35%;
+                top: 11.5rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 50%;
+                top: 7rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 58%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 60%;
+                top: 4.2rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 76%;
+                top: 1rem;
+                animation-delay: 0.4s;
+                height: 58rem;
+            }
+        }
+    }
+    .tableTwo {
+        & img {
+            width: 18rem;
+        }
+    }
+    img.gifka {
+        width: 30rem;
+    }
+    .tableTwo {
+        width: 55rem;
+        height: 46rem;
+    }
+    .threeText, .threeTextChine {
+        width: 70rem;
+    }
+    .tableThree {
+        width: 79rem;
+        height: 33rem;
+    }
+    .tableThree {
+        & img {
+            width: 77rem;
+        }
+    }
+    .fourItem img {
+        width: 100%;
+    }
+    .fourItem {
+        width: 26rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fourTextBotton {
+        padding-left: 2rem;
+    }
+    .fourBlock {
+        & .smoke {
+            right: -45rem;
+        }
+    }
+    .fiveItem {
+        & .fiveTable {
+            height: 25rem;
+        }
+    }
+    .fiveItem {
+        width: 35rem;
+    }
+    .fiveTable img {
+        width: 90%;
+    }
+    .smoke {
+        right: -45rem;
+    }
+    .tableSix {
+        height: 44rem;
+        width: 100%;
+    }
+}
+@media (max-width:1620px) {
+    .naming {
+        & img {
+            &:first-child {
+                top: 8rem;
+            }
+        }
+        & img {
+            &:last-child {
+                bottom: 11rem;
+
+            }
+        }
+
+    }
+    .tableTwo {
+        width: 49rem;
+        height: 46rem;
+        padding: 2rem 0;
+    }
+    .fourItem .miniHeros {
+        width: 20rem;
+    }
+    .fourList {
+        margin: 6rem 0;
+    }
+    .fiveList {
+        width: 80rem;
+    }
+    .naming {
+        top: 18rem;
+    }
+}
+@media (max-width:1440px) {
+    html {
+        font-size: 14px;
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 0;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 14%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 27.5%;
+                top: 4.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 26.5%;
+                top: 11.5rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 44%;
+                top: 7rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 53%;
+                top: 3rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 55%;
+                top: 2rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 73%;
+                top: 0;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .threeText, .threeTextChine {
+        width: 65rem;
+        margin-top: 5rem;
+    }
+    .tableThree {
+        width: 70rem;
+        height: 28.5rem;
+        margin-bottom: 4rem;
+        & img {
+            width: 65rem;
+        }
+    }
+    .smoke {
+        top: -12rem;
+    }
+    .tableSix {
+        height: 49rem;
+        width: 100%;
+    }
+    .navItem, .navItemS {
+        & .top, .topS {
+            margin: 0 1rem;
+        }
+    }
+    .blackKnight {
+        height: 100%;
+    }
+
+}
+@media (max-width:1340px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 0;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 15%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 30%;
+                top: 4.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 29%;
+                top: 11.5rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 48%;
+                top: 7rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 57.5%;
+                top: 3rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 58%;
+                top: 3rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 76%;
+                top: 0;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .blackKnight {
+        height: 100%;
+    }
+    .threeText, .threeTextChine {
+        width: 55rem;
+    }
+    .fiveItem {
+        & img:nth-child(1) {
+            width: 10rem;
+        }
+    }
+    .fiveItem {
+        & img:nth-child(2) {
+            height: 4rem;
+        }
+    }
+    .fiveTable {
+        & img:nth-child(1) {
+            width: 90%;
+        }
+    }
+    .tableSix {
+        height: 35rem;
+        width: 70%;
+    }
+    .sixText {
+        width: 100%;
+    }
+    .dragons {
+        height: 8rem;
+    }
+}
+@media (max-width:1240px) {
+    .heroBlock {
+        height: 49rem;
+    }
+    .heross {
+        & img {
+            height: 40rem;
+        }
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 6%;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 18.5%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 31%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 30%;
+                top: 10.5rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 46%;
+                top: 7rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 54%;
+                top: 4rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 56%;
+                top: 3.5rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 70%;
+                top: 0;
+                height: 46rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .naming {
+        top: 15rem;
+    }
+    img.gifka {
+        width: 27rem;
+    }
+    .tableTwo {
+        width: 44rem;
+        height: 41rem
+    }
+    .threeText, .threeTextChine {
+        width: 50rem;
+    }
+    .tableThree {
+        width: 63rem;
+        height: 25rem;
+    }
+    .fourItem {
+        width: 23rem;
+    }
+    .fiveItem {
+        width: 30rem;
+    }
+    .fiveItem {
+        & .fiveTable {
+            height: 21.5rem;
+        }
+    }
+    .fiveBlock {
+        height: 76rem;
+    }
+    .fiveList {
+        height: 90%;
+        width: 70rem;
+    }
+    .fiveMan {
+        height: 100%;
+    }
+    a {
+        & img {
+            width: 4rem;
+        }
+    }
+}
+@media (max-width:1190px) {
+    .starLight {
+        height: 5rem;
+    }
+    .comingSoon {
+        height: 0.8rem;
+    }
+    .navItem, .navItemS {
+        & .top {
+            & img:first-child {
+                height: 1.5rem;
+            }
+        }
+    }
+    .navItem, .navItemS {
+        & .top, .topS {
+            padding-top: 0;
+        }
+    }
+    .tableSix {
+        width: 73%;
+    }
+    .tableThree {
+        & img {
+            width: 60rem;
+        }
+    }
+    .sixButton {
+        width: 25rem;
+    }
+    .sixBlockButton:hover .sixButtonHov {
+        left: -15%;
+        top: -30%;
+    }
+    .leftHead {
+        padding-left: 3rem;
+    }
+    .fourBlock {
+        & .smoke {
+            right: -40rem;
+            top: -10rem;
+        }
+    }
+    .fourMan {
+        height: 100%;
+    }
+}
+@media (max-width:1024px) {
+    html {
+        font-size: 12px;
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 6%;
+                top: 5rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .fiveList {
+        padding-top: 6rem;
+        margin-bottom: 6rem;
+    }
+    .smoke {
+        top: -14rem;
+    }
+}
+@media (max-width:940px) {
+    .fiveList {
+        width: 60rem;
+    }
+    .fiveItem {
+        width: 25rem;
+    }
+    .fiveItem {
+        & .fiveTable {
+            height: 18rem;
+        }
+    }
+    .fiveItem {
+        & img:nth-child(2) {
+            height: 3.5rem;
+        }
+    }
+    .tableSix {
+        width: 55%;
+        height: 24rem;
+    }
+    .logos {
+        width: 20rem;
+    }
+    .logo:hover .logosHov {
+        width: 20rem;
+    }
+    .twoBlock {
+        height: 50rem;
+    }
+    .tableTwo {
+        width: 35rem;
+        height: 32rem;
+    }
+    .tableTwo {
+        & img {
+            width: 15rem;
+        }
+    }
+    img.gifka {
+        width: 20rem;
+    }
+    .tableThree {
+        width: 50rem;
+        height: 17.5rem;
+    }
+    .tableThree {
+        & img {
+            width: 48rem;
+        }
+    }
+    .threeText, .threeTextChine {
+        width: 40rem;
+    }
+}
+@media (max-width:850px) {
+    .heross {
+        & img {
+            height: 34rem;
+            &:first-child {
+                left: 0;
+                top: 5rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 13%;
+                top: 6rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 26.5%;
+                top: 4rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 25%;
+                top: 8.5rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 42%;
+                top: 5.5rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 50.5%;
+                top: 3rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 52%;
+                top: 2.5rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 67%;
+                top: 0;
+                height: 40rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .naming {
+        top: 13rem;
+    }
+    .naming {
+        & img {
+            &:first-child {
+                top: 6rem;
+            }
+            &:last-child {
+                bottom: 8rem;
+            }
+        }
+    }
+    .fourItem {
+        width: 20rem;
+    }
+}
+@media (max-width:768px) {
+    html {
+        font-size: 10px;
+    }
+    .starLight {
+        height: 4rem;
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 3%;
+                top: 5rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 15%;
+                top: 6rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 27%;
+                top: 4.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 26%;
+                top: 9rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 42%;
+                top: 6rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 50%;
+                top: 3.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 52%;
+                top: 3rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 67%;
+                top: 0;
+                height: 40rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .smoke {
+        height: 16rem;
+        top: -8rem;
+        right: -25rem;
+    }
+    .tableTwo {
+        margin-right: 3rem;
+    }
+    .fourItem .miniHeros {
+        width: 16rem;
+    }
+    .fourBlock {
+        & .smoke {
+            right: -40rem;
+            top: -8rem;
+        }
+    }
+    .sixBlock {
+        height: 60rem;
+    }
+    .fiveList {
+        height: 80%;
+    }
+    .sixButton {
+        width: 20rem;
+    }
+    .sixBlockButton:hover .sixButtonHov {
+        left: -15%;
+        top: -15%;
+        width: 130%;
+    }
+}
+@media (max-width:648px) {
+    a {
+        & img {
+            width: 3rem;
+        }
+    }
+    .rightHead {
+        margin-right: 1.5rem;
+    }
+        .heross {
+        & img {
+            &:first-child {
+                left: 5%;
+                top: 5rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 19%;
+                top: 6rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 33%;
+                top: 4.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 32%;
+                top: 9rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 50%;
+                top: 6rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 59%;
+                top: 3.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 61%;
+                top: 3rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 76%;
+                top: 1rem;
+                height: 40rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .fiveBlock {
+        height: 60rem;
+    }
+    .fiveList {
+        margin-left: 2rem;
+        width: 50rem;
+    }
+    .fiveItem {
+        width: 20rem;
+    }
+    .fiveItem {
+        & .fiveTable {
+            height: 14rem;
+        }
+    }
+    .fiveItem {
+        & img:nth-child(2) {
+            height: 3rem;
+        }
+    }
+    .fiveItem {
+        & img:nth-child(1) {
+            width: 8rem;
+        }
+    }
+    .fiveItem {
+        .fiveTable {
+            & img:nth-child(1) {
+                width: 90%;
+            }
+        }
+    }
+    .tableSix {
+        width: 50%;
+        height: 18rem;
+    }
+    .dragons {
+        height: 6rem;
+        bottom: 3rem;
+    }
+    .sixBlockButton {
+        height: auto;
+    }
+    .sixButton {
+        width: 16rem;
+    }
+    .threeText, .threeTextChine {
+        margin: 3rem 0 2rem 2rem;
+    }
+    .tableThree {
+        margin-left: 2rem;
+        top: 0rem;
+    }
+    .tableThree {
+        & img {
+            width: 45rem;
+        }
+    }
+    .fourList {
+        &:nth-child(4) {
+            margin-right: 3rem;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+    }
+    .sixBlock {
+        height: 55rem;
+    }
+    .navItem:hover .topHov, .navItem.active .topHov {
+        width: 7rem;
+    }
+    .sign {
+        height: 2.5rem;
+    }
+    .leftHead {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .logos {
+        width: 16rem;
+    }
+    .logo:hover .logosHov {
+        width: 16rem;
+    }
+}
+@media (max-width:600px) {
+    .heross {
+        & img {
+            height:30rem ;
+            &:first-child {
+                left: 2%;
+                top: 5rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 16%;
+                top: 6rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 30%;
+                top: 4.5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 29%;
+                top: 9rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 46%;
+                top: 6rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 55%;
+                top: 4rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 57%;
+                top: 4rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 76%;
+                top: 3rem;
+                height: 33rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .navItem, .navItemS {
+        & .top, .topS {
+            margin: 0 0.5rem;
+        }
+    }
+    .threeText, .threeTextChine {
+        width: 35rem;
+    }
+    .fourItem {
+        width: 17rem;
+    }
+    .fiveItem {
+        & img:nth-child(2) {
+            height: 2.5rem;
+        }
+    }
+    .tableSix {
+        width: 50%;
+        height: 17rem;
+    }
+    .heroBlock {
+        height: 43rem;
+    }
+}
+@media (max-width:550px) {
+    .leftHead {
+        padding-left: 2rem;
+    }
+    .comingSoon {
+        height: 0.7rem;
+    }
+    .navItem, .navItemS {
+        & .top {
+            & img:first-child {
+                height: 1.3rem;
+            }
+        }
+    }
+    .tableTwo {
+        margin-right: 2rem;
+    }
+    .tableTwo {
+        width: 28rem;
+        height: 34rem;
+    }
+    .threeText, .threeTextChine {
+        width: 30rem;
+    }
+    .tableThree {
+        & img {
+            width: 35rem;
+        }
+    }
+    .tableThree {
+        width: 38rem;
+        height: 11rem;
+    }
+    .fourItem {
+        width: 14rem;
+    }
+    .fiveBlock {
+        height: 50rem;
+    }
+    .fiveList {
+        width: 43rem;
+        padding-top: 1rem;
+        height: 95%;
+    }
+    .sixBlock {
+        height: 50rem;
+    }
+}
+@media (max-width: 500px) {
+    .comingSoon {
+        height: 0.5rem;
+    }
+    .naming {
+        & img {
+            &:first-child {
+                top: 4rem;
+            }
+        }
+    }
+    .naming {
+        & img {
+            &:last-child {
+                bottom: 5rem;
+                width: 30rem;
+            }
+        }
+    }
+    .navItem, .navItemS {
+        & .top {
+            & img:first-child {
+                height: 1rem;
+            }
+        }
+    }
+    .starLight:nth-of-type(2), .starLight:nth-of-type(4), .starLight:nth-of-type(6) {
+        margin-right: 0.2rem;
+    }
+    .rightHead {
+        margin-right: 1rem;
+    }
+    .threeBlock {
+        padding: 2rem 0 2rem;
+    }
+    .threeText, .threeTextChine {
+        width: 25rem;
+        margin: 2rem 0 2rem 2rem;
+    }
+    .fourItem .miniHeros {
+        width: 10rem;
+    }
+}
+@media (max-width: 460px) {
+    .fiveItem {
+        & img:nth-child(1) {
+            width: 6rem;
+        }
+    }
+    .fiveList {
+        width: 35rem;
+    }
+    .fiveItem {
+        width: 15rem;
+    }
+    .fiveItem {
+        & .fiveTable {
+            height: 10.7rem;
+        }
+    }
+    .fiveItem {
+        & img:nth-child(2) {
+            height: 2rem;
+        }
+    }
+    .fiveBlock {
+        height: 40rem;
+    }
+    .sixBlock {
+        height: 40rem;
+    }
+    .tableSix {
+        width: 50%;
+        height: 13rem;
+    }
+    .dragons {
+        height: 4rem;
+        bottom: 2rem;
+    }
+    .sixButton {
+        width: 12rem;
+    }
+    .logos {
+        width: 12rem;
+    }
+    .logo:hover .logosHov {
+        width: 12rem;
+    }
+    .navItem:hover .topHov, .navItem.active .topHov {
+        width: 5rem;
+    }
+    .twoBlock {
+        height: 35rem;
+    }
+    .tableTwo {
+        width: 24rem;
+        height: 21rem;
+    }
+    .tableTwo {
+        width: 24rem;
+        height: 26rem;
+    }
+    .tableTwo {
+        & img {
+            width: 15rem;
+        }
+    }
+
+}
+@media (max-width:430px) {
+    .navItem, .navItemS {
+        & .top, .topS {
+            margin: 0 0.25rem;
+        }
+    }
+    .leftHead {
+        padding-left: 1rem;
+    }
+    .heroBlock {
+        height: 30rem;
+    }
+    .heross {
+        & img {
+            height: 16rem;
+        }
+    }
+        .heross {
+        & img {
+            height:20rem ;
+            &:first-child {
+                left: 2%;
+                top: 5rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 15%;
+                top: 5rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 28%;
+                top: 4.2rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 27%;
+                top: 7rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 43.5%;
+                top: 5.5rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 52%;
+                top: 4rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 53%;
+                top: 4rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 69%;
+                top: 3rem;
+                height: 22rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+    .naming {
+        top: 7rem;
+    }
+    .twoBlock {
+        height: 30rem;
+    }
+    .tableTwo {
+        width: 20rem;
+        height: 20rem;
+    }
+    .tableTwo {
+        & img {
+            width: 11rem;
+        }
+    }
+    .tableThree {
+        width: 30rem;
+        height: 6.5rem;
+    }
+    .threeText, .threeTextChine {
+        width: 24rem;
+        margin: 2rem 0 1rem 2rem;
+    }
+    .tableThree {
+        & img {
+            width: 26rem;
+        }
+    }
+    .fourItem {
+        width: 10rem;
+    }
+    .miniHeros {
+        margin: 1.5rem 0 2rem;
+        width: 8rem;
+    }
+    .sign {
+        height: 2rem;
+    }
+    .topHov {
+        margin: 0 0.25rem;
+    }
+}
+@media (max-width:390px) {
+    .fourBlock {
+        & .smoke {
+            right: -25rem;
+            top: -8rem;
+        }
+    }
+    .starLight {
+        height: 3rem;
+    }
+    a {
+        & img {
+            width: 2.5rem;
+        }
+    }
+    .sixBlockButton:hover .sixButtonHov {
+        left: -15%;
+        top: -50%;
+        width: 130%;
+    }
+}
+@media (max-width:380px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 12%;
+                top: 5rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 24%;
+                top: 5rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 36%;
+                top: 4.2rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 36%;
+                top: 7rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 50.5%;
+                top: 5.5rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 58%;
+                top: 4rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 59%;
+                top: 4rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 73%;
+                top: 3rem;
+                height: 22rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    html {
+        font-size: 8px;
+    }
+}

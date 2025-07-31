@@ -1,0 +1,551 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+html {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #28211F;
+}
+img {
+    object-fit: cover;
+}
+body {
+  overflow-x: hidden;
+}
+button {
+    cursor: pointer;
+}
+header {
+    display: flex;
+    background-image: url(img/general/headerBlockBack.jpg);
+    background-size: cover;
+}
+.leftHead {
+    width: -webkit-fill-available;
+    display: flex;
+    padding-left: 9rem;
+}
+.rightHead {
+    display: flex;
+    margin-right: 3.5rem;
+    align-items: center;
+}
+.navItem, .navItemS {
+    width: auto;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    overflow-y: hidden;
+    &:last-child {
+        padding: 0;
+    }
+    & .top, .topS {
+        height: auto;
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow-y: hidden;
+        margin: 0 2rem;
+        padding-top: 1rem;
+        transition: opacity 0.3s;
+        & img:first-child {
+            margin-bottom: 1rem;
+        }
+    }
+}
+.topHov {
+    opacity: 0;
+    max-width: 0;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    margin: 0 1rem;
+    right: 0;
+    transition: opacity 0.3s;
+}
+.navItem:hover .topHov,
+.navItem.active .topHov {
+    opacity: 1;
+    max-width: 100% ;
+    max-height: 100%;
+    position: relative;
+    transition: opacity 0.3s;
+}
+
+.navItem:hover .top {
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: auto;
+    position: absolute;
+
+}
+.navItem.active .top {
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.3s;
+}
+.navItem.active .topHov {
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    width: auto;
+    position: relative;
+    transition: opacity 0.3s;
+}
+
+.starLight:nth-of-type(2),
+.starLight:nth-of-type(4),
+.starLight:nth-of-type(6) {
+    margin-right: 0.5rem;
+}
+/* ------------------------ heroBlock*/
+.heroBlock {
+    height: 100vh;
+    background-image: url(img/general/mainBack.jpg);
+    background-size: cover;
+    position: relative;
+}
+.heros {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.naming {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    top: 16rem;
+    & img {
+            mask-image: 
+        radial-gradient(circle, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+        opacity: 0;
+        animation: fadeInUp 0.75s forwards;
+        &:first-child {
+            height: auto;
+            width: 22rem;
+            position: relative;
+            top: 6rem;
+            animation-delay: 2s;
+        }
+        &:nth-child(2) {
+            position: relative;
+            width: 100%;
+            animation-delay: 1.5s;
+        }
+        &:last-child {
+            width: 40rem;
+            position: relative;
+            bottom: 12rem;
+            animation-delay: 2s;
+        }
+    }
+}
+.heross {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    & img {
+        position: absolute;
+        opacity: 0;
+        animation: fadeIn 0.75s forwards;
+        height: 51rem;
+        &:first-child {
+            left: 10%;
+            top: 7rem;
+            animation-delay: 0.4s;
+        }
+        &:nth-child(2) {
+            left: 22%;
+            top: 7rem;
+            animation-delay: 0.6s;
+        }
+        &:nth-child(3) {
+            left: 33.5%;
+            top: 5rem;
+            animation-delay: 0.8s;
+
+        }
+        &:nth-child(4) {
+            left: 33%;
+            top: 12rem;
+            animation-delay: 1s;
+            z-index: 2;
+
+        }
+        &:nth-child(5) {
+            left: 46%;
+            top: 8.75rem;
+            animation-delay: 1s;
+
+        }
+        &:nth-child(6) {
+            left: 53.5%;
+            top: 5.75rem;
+            animation-delay: 0.8s;
+
+        }
+        &:nth-child(7) {
+            left: 55%;
+            top: 5rem;
+            animation-delay: 0.6s;
+
+        }
+        &:last-child {
+            left: 70%;
+            top: 5rem;
+            animation-delay: 0.4s;
+            height: 56rem;
+        }
+    }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* ------------------------ twoBlock*/
+.twoBlock {
+    background-image: url(img/general/twoBlockBack.jpg);
+    height: 75rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+}
+.tableTwo {
+    background-image: url(img/general/twoBlockTable.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60.5rem;
+    height: 52rem;
+    padding: 5rem 0;
+    margin-right: 7rem;
+    & img {
+        width: 25rem;
+    }
+}
+.tableTwoGroup {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tableTwo, .tableTwo img, .tableTwo video {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+}
+.tableTwo.visible, .tableTwo img.visible, .tableTwo video.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+.blackKnight {
+    position: absolute;
+    left: -10rem;
+    opacity: 0;
+    transition: all 1s;
+}
+.blackKnight.visible {
+    opacity: 1;
+    left: 0;
+    transition: all 1s;
+}
+img.gifka {
+    width: 30rem;
+}
+/* ----------------------- threeBlock*/
+.threeBlock {
+    background-image: url(img/general/threeBlockBack.jpg);
+    position: relative;
+    z-index: 1;
+    padding: 2rem 0 5rem;
+    background-size: cover;
+}
+.smoke {
+    position: absolute;
+    top: -10rem;
+    right: -25rem;
+    z-index: 90;
+    & img {
+        width: 150%;
+    }
+}
+.tableThree {
+    background-image: url(img/general/threeBlockTable.png);
+    background-size: cover;
+    width: 94rem;
+    padding: 5rem 0;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+    top: -1rem;
+}
+.tableThree, .tableThree img {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+}
+.tableThree.visible, .tableThree img.visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+.threeText {
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+    margin: 3rem 0 3rem 5rem;
+}
+.threeText.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+.threeTextChine {
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+    margin: 3rem 0 3rem 5rem;
+}
+.threeTextChine.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+/* ----------------------- fourBlock */
+.fourBlock {
+    background-image: url(img/general/fourBlockBack.jpg);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    & .smoke {
+        top: -14rem;
+        width: 200%;
+        right: -20rem;
+    }
+}
+.fourMan {
+    position: absolute;
+    left: 0;
+}
+.fourList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    &:nth-child(4) {
+        margin-right: 7rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        justify-content: space-between;
+    }
+}
+.miniHeros {
+    margin: 1.5rem 0 4rem;
+}
+.fourTextBotton {
+    padding-left: 6rem;
+}
+.fourMan,.fourItem {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+
+}
+.fourMan.visible,.fourItem.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+/* ----------------------- fiveBlock*/
+.fiveBlock {
+    background-image: url(img/general/fiveBlockBack.jpg);
+    position: relative;
+    height: 89.5rem;
+    background-size: cover;
+}
+.smokeAlt {
+    position: absolute;
+    top: -5rem;
+    right: -20rem;
+    z-index: 90;
+    height: 10rem;
+    width: 150%;
+}
+.fiveMan {
+    position: absolute;
+    right: -10rem;
+    opacity: 0;
+    transition: all 1s;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
+}
+.fiveMan.visible {
+    opacity: 1;
+    right: 0;
+    transition: all 1s;
+}
+.fiveList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85rem;
+    height: 80rem;
+    margin-left: 5rem;
+    padding-top: 3rem;
+}
+.fiveItem {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    & img:nth-child(2) {
+        height: 5rem;
+    }
+}
+.fiveTable {
+    background-image: url(img/general/fiveBlockTable.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26.75rem;
+    width: 37.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fiveItem, .fiveItem img, .fiveTable, .fiveTable img {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+}
+.fiveItem.visible, .fiveItem img.visible, .fiveTable.visible, .fiveTable img.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+
+/* ----------------------- sixBlock*/
+.sixBlock {
+    background-image: url(img/general/sixBlockBack.jpg);
+    height: 77rem;
+    position: relative;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.tableSix {
+    background-image: url(img/general/sixBlockTable.png);
+    background-size: cover;
+    height: 38rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem 4rem;
+}
+.dragons {
+    height: 11rem;
+    width: auto;
+    position: relative;
+    bottom: 5rem;
+}
+.sixBlockButton {
+    height: 10rem;
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    transition: none;
+    position: relative;
+}
+.sixBlockButton:hover .sixButtonHov {
+    width: 125%;
+    opacity: 1;
+    position: absolute;
+    left: -10%;
+    top: -40%;
+    z-index: 1;
+}
+.sixButton {
+    width: 30rem;
+    z-index: 2;
+    position: relative;
+}
+.sixButtonHov {
+    width: 0;
+    opacity: 0;
+}
+.tableSix, .tableSix img,.dragons, .sixBlockButton {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: transform 1s ease, opacity 1s ease;
+}
+.tableSix.visible, .tableSix img.visible,.dragons.visible, .sixBlockButton.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s ease, opacity 1s ease;
+}
+.logo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+    background-color: transparent;
+}
+.logos {
+    opacity: 1;
+}
+.logosHov {
+    opacity: 0;
+    width: 0;
+}
+.logo:hover .logos {
+    opacity: 0;
+    width: 0;
+}
+.logo:hover .logosHov {
+    opacity: 1;
+    width: auto;
+}
