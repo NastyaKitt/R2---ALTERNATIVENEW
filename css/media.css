@@ -1421,6 +1421,7 @@
     .fiveItem {
         & .fiveTable {
             height: 10.7rem;
+            width: 100%;
         }
     }
     .fiveItem {
