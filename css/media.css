@@ -207,18 +207,18 @@
         height: 61rem;
     }
     .comingSoon {
-        height: 1.5rem;
+        height: 2rem;
     }
     .navItem, .navItemS {
         & .top {
             & img:first-child {
-                height: 2.5rem;
+                height: 3.5rem;
             }
         }
     }
     a {
         & img {
-            width: 6rem;
+            width: 7rem;
         }
     }
     .naming {
@@ -503,7 +503,12 @@
             }
         }
     }
-
+    .leftHead {
+        padding-left: 5rem;
+    }
+    .comingSoon {
+        height: 1.5rem;
+    }
 }
 
 @media (max-width: 1920px) {
@@ -1125,6 +1130,21 @@
     .smoke {
         top: -14rem;
     }
+    .naming {
+        & img {
+            &:first-child {
+                top: 7rem;
+            }
+        }
+    }
+    .naming {
+        & img {
+            &:last-child {
+                bottom: 9rem;
+            }
+        }
+    }
+
 }
 @media (max-width:940px) {
     .fiveList {

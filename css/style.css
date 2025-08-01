@@ -130,7 +130,9 @@ header {
             height: auto;
             width: 22rem;
             position: relative;
-            top: 6rem;
+            top: 9rem;
+            margin-right: 1.5rem;
+            z-index: 2;
             animation-delay: 2s;
         }
         &:nth-child(2) {
