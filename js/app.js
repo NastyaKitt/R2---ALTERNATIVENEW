@@ -1,21 +1,30 @@
-function checkVisibility() {
-  const elements = document.querySelectorAll(
-    '.blackKnight, .fiveMan, .tableTwo, .tableTwo img, .tableTwo video, ' +
-    '.threeText, .threeTextChine,.fourMan,.fourItem, .tableThree, .tableThree img, .fiveItem, .fiveItem img, ' +
-    '.fiveTable, .fiveTable img, .tableSix, .tableSix img, .dragons, .sixBlockButton'
-  );
-  const windowBottom = window.innerHeight;
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.1 // 10% элемента виден
+};
 
-  elements.forEach(el => {
-    const rect = el.getBoundingClientRect();
-    if (rect.top <= windowBottom - 50) {
-      el.classList.add('visible');
+const callback = (entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target); // если нужно, чтобы класс добавлялся один раз
     }
   });
-}
+};
 
-window.addEventListener('scroll', checkVisibility);
-window.addEventListener('load', checkVisibility);
+const observer = new IntersectionObserver(callback, observerOptions);
+
+const elements = document.querySelectorAll(
+  '.blackKnight, .fiveMan, .tableTwo, .tableTwo img, .tableTwo video, ' +
+  '.threeText, .threeTextChine, .fourMan, .fourItem, .tableThree, .tableThree img, ' +
+  '.fiveItem, .fiveItem img, .fiveTable, .fiveTable img, .tableSix, .tableSix img, ' +
+  '.dragons, .sixBlockButton'
+);
+
+elements.forEach(el => {
+  observer.observe(el);
+});
 
 // 
 document.getElementById('scrollToTop').addEventListener('click', function() {
