@@ -1,115 +1,61 @@
-@media (min-height: 1400px) {
-    div.heroBlock {
-        height: 90rem;
-    }
-}
-@media (min-width: 1921px) and (max-width: 2300px) {
-    .comingSoon {
-        height: 1.5rem;
-    }
-    .navItem, .navItemS {
-        & .top {
-            & img:first-child {
-                height: 2.5rem;
-            }
-        }
-    }
-    a {
-        & img {
-            width: 6rem;
-        }
-    }
-    .naming {
-        & img {
-            &:first-child {
-                top: 10rem;
-                z-index: 2
-                ;
-            }
-        }
-    }
-}
-@media (min-width: 1921px) and (max-width: 2200px) {
-    .threeText, .threeTextChine {
-        width: 80rem;
-    }
-    .tableThree {
-        width: 100rem;
-        height: 43rem;
-    }
-    .fourItem {
-        width: 40rem;
-    }
-    .fiveItem {
-        width: 40rem;
-        & .fiveTable {
-            width: 100%;
-            height: 28rem;
-        }
-    }
-
-}
-@media (min-width: 1921px) and (max-width: 2100px) {
+@media (min-width: 1921px) {
     .heross {
         & img {
             &:first-child {
-                left: 6%;
+                left: 16%;
                 top: 7rem;
+                z-index: 2;
                 animation-delay: 0.4s;
             }
             &:nth-child(2) {
-                left: 20%;
+                left: 26%;
                 top: 7rem;
                 animation-delay: 0.6s;
             }
             &:nth-child(3) {
-                left: 33.5%;
+                left: 37.5%;
                 top: 5rem;
                 animation-delay: 0.8s;
 
             }
             &:nth-child(4) {
-                left: 32.5%;
-                top: 14rem;
+                left: 36%;
+                top: 12rem;
                 animation-delay: 1s;
                 z-index: 2;
 
             }
             &:nth-child(5) {
-                left: 51%;
+                left: 50%;
                 top: 8rem;
                 animation-delay: 1s;
 
             }
             &:nth-child(6) {
-                left: 60%;
-                top: 3rem;
+                left: 57%;
+                top: 5rem;
                 animation-delay: 0.8s;
 
             }
             &:nth-child(7) {
-                left: 62%;
-                top: 2rem;
+                left: 57%;
+                top: 4rem;
                 animation-delay: 0.6s;
 
             }
             &:last-child {
-                left: 80%;
-                top: 0;
+                left: 67%;
+                top: 2rem;
                 animation-delay: 0.4s;
-                height: 73rem;
             }
         }
     }
-    .tableTwo {
-        width: 73rem;
-        height: 65rem;
+
+    .navItem, .navItemS {
+        & .top, .topS {
+            margin: 0 1.5rem;
+        }
     }
-    img.gifka {
-        width: 40rem;
-    }
-}
-@media (min-width: 1921px) {
     header {
         height: 11rem;
     }
@@ -143,14 +89,7 @@
     }
     .heross {
         & img {
-            height: 68rem;
-        }
-    }
-    .heross {
-        & img {
-            &:last-child {
-                height: 68rem;
-            }
+            height: 50rem;
         }
     }
     .naming {
@@ -263,11 +202,316 @@
     }
 }
 
+@media (min-width: 1921px) and (max-width: 2560px) {
+    .heroBlock {
+        height: 61rem;
+    }
+    .comingSoon {
+        height: 1.5rem;
+    }
+    .navItem, .navItemS {
+        & .top {
+            & img:first-child {
+                height: 2.5rem;
+            }
+        }
+    }
+    a {
+        & img {
+            width: 6rem;
+        }
+    }
+    .naming {
+        & img {
+            &:first-child {
+                top: 10rem;
+                z-index: 2
+                ;
+            }
+        }
+    }
+    .heross {
+        & img {
+            &:first-child {
+                left: 19%;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 28%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 37.5%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 36.5%;
+                top: 12rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 49%;
+                top: 8rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 55%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 56%;
+                top: 2rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 67%;
+                top: 2rem;
+                animation-delay: 0.4s;
+                height: 60rem;
+            }
+        }
+    }
+    .naming {
+        top: 16rem;
+        height: 36rem;
+        width: auto;
+    }
+    .heros {
+        justify-content: center;
+    }
+    .tableTwoGroup {
+        height: 47%;
+    }
+}
+@media (min-width: 2560px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 20%;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 28%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 36.7%;
+                top: 4rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 36%;
+                top: 11rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 47%;
+                top: 7rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 52.5%;
+                top: 4rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 54%;
+                top: 3.5rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 64%;
+                top: 2rem;
+                animation-delay: 0.4s;
+                height: 55rem;
+            }
+        }
+    }
+}
+@media (min-width: 1921px) and (max-width: 2200px) {
+    .threeText, .threeTextChine {
+        width: 80rem;
+    }
+    .tableThree {
+        width: 100rem;
+        height: 43rem;
+    }
+    .fourItem {
+        width: 40rem;
+    }
+    .fiveItem {
+        justify-content: start;
+        width: 40rem;
+        & .fiveTable {
+            width: 100%;
+            height: 28rem;
+        }
+    }
+    .tableTwo {
+        width: 70rem;
+        height: 62rem;
+    }
+    .tableTwo {
+        & img {
+            width: 26rem;
+        }
+    }
+    .fiveItem {
+        & img:nth-child(2) {
+            height: 5rem;
+        }
+    }
+    img.gifka {
+        width: 42rem;
+    }
+    .fourItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & .miniHeros {
+            width: 30rem;
+        }
+    }
+}
+@media (min-width: 1921px) and (max-width: 2100px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 19%;
+                top: 7rem;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 28%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 37.5%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 36.5%;
+                top: 12rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 49%;
+                top: 8rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 55%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 56%;
+                top: 2rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 67%;
+                top: 2rem;
+                animation-delay: 0.4s;
+                height: 60rem;
+            }
+        }
+    }
+    .tableTwo {
+        width: 73rem;
+        height: 65rem;
+    }
+    img.gifka {
+        width: 40rem;
+    }
+}
+@media (min-width: 1921px) and (max-width: 2100px) {
+    .heross {
+        & img {
+            &:first-child {
+                left: 16%;
+                top: 7rem;
+                z-index: 2;
+                animation-delay: 0.4s;
+            }
+            &:nth-child(2) {
+                left: 26%;
+                top: 7rem;
+                animation-delay: 0.6s;
+            }
+            &:nth-child(3) {
+                left: 37.5%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(4) {
+                left: 36%;
+                top: 12rem;
+                animation-delay: 1s;
+                z-index: 2;
+
+            }
+            &:nth-child(5) {
+                left: 50%;
+                top: 8rem;
+                animation-delay: 1s;
+
+            }
+            &:nth-child(6) {
+                left: 57%;
+                top: 5rem;
+                animation-delay: 0.8s;
+
+            }
+            &:nth-child(7) {
+                left: 57%;
+                top: 4rem;
+                animation-delay: 0.6s;
+
+            }
+            &:last-child {
+                left: 67%;
+                top: 2rem;
+                animation-delay: 0.4s;
+            }
+        }
+    }
+
+}
+
 @media (max-width: 1920px) {
     .heross {
         & img {
             &:first-child {
-                left: 10%;
+                left: 12%;
+                z-index: 2;
                 top: 7rem;
                 animation-delay: 0.4s;
             }
@@ -359,7 +603,9 @@
     .fourItem {
         width: 35rem;
     }
-    
+    .tableSix {
+        width: 100%;
+    }
 }
 @media (max-width:1820px) {
     a {
