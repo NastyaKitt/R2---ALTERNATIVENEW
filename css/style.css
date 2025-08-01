@@ -351,8 +351,8 @@ img.gifka {
     justify-content: flex-end;
     position: relative;
     & .smoke {
-        top: -14rem;
-        width: 200%;
+        top: -12rem;
+        width: 150%;
         right: -20rem;
     }
 }
@@ -366,12 +366,12 @@ img.gifka {
     align-items: center;
     z-index: 2;
     margin-right: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     &:nth-child(4) {
         margin-right: 7rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-top: 6rem;
+        margin-bottom: 5rem;
         justify-content: space-between;
     }
 }

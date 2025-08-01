@@ -560,7 +560,7 @@
         }
     }
     .tableTwo {
-        width: 60rem;
+        width: 63rem;
         height: 55rem;
     }
     .tableTwoGroup {
@@ -568,7 +568,7 @@
     }
     .tableTwo {
         & img {
-            width: 20rem;
+            width: 23rem;
         }
     }
     .tableThree {
@@ -576,7 +576,7 @@
         height: 42rem;
     }
     img.gifka {
-        width: 35rem;
+        width: 37rem;
     }
     .sign {
         height: 3.5rem;
@@ -731,7 +731,8 @@
     }
     .fourBlock {
         & .smoke {
-            right: -45rem;
+            right: -30rem;
+            top: -10rem;
         }
     }
     .fiveItem {
@@ -928,7 +929,7 @@
     }
     .fiveItem {
         & img:nth-child(1) {
-            width: 10rem;
+            width: auto;
         }
     }
     .fiveItem {
@@ -1038,6 +1039,7 @@
     .fiveItem {
         & .fiveTable {
             height: 21.5rem;
+            max-width: 100%;
         }
     }
     .fiveBlock {
@@ -1095,8 +1097,8 @@
     }
     .fourBlock {
         & .smoke {
-            right: -40rem;
-            top: -10rem;
+            right: -20rem;
+            top: -8rem;
         }
     }
     .fourMan {
@@ -1320,8 +1322,8 @@
     }
     .fourBlock {
         & .smoke {
-            right: -40rem;
-            top: -8rem;
+            right: -20rem;
+            top: -7rem;
         }
     }
     .sixBlock {
@@ -1416,12 +1418,13 @@
     }
     .fiveItem {
         & img:nth-child(2) {
-            height: 3rem;
+            height: 2.5rem;
         }
     }
     .fiveItem {
         & img:nth-child(1) {
-            width: 8rem;
+            width: auto;
+            height: 3rem;
         }
     }
     .fiveItem {
@@ -1653,9 +1656,15 @@
     }
 }
 @media (max-width: 460px) {
+    div.fiveItem {
+        & .number {
+            width: auto;
+            height: 2rem;
+        }
+    }
     .fiveItem {
-        & img:nth-child(1) {
-            width: 6rem;
+        & img:nth-child(2) {
+            margin: 1.5rem 0;
         }
     }
     .fiveList {
@@ -1833,7 +1842,7 @@
 @media (max-width:390px) {
     .fourBlock {
         & .smoke {
-            right: -25rem;
+            right: -15rem;
             top: -8rem;
         }
     }
